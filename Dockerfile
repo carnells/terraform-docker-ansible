@@ -4,7 +4,7 @@ FROM ubuntu:18.04
 ARG TERRAFORM_VERSION="1.0.5"
 ARG ANSIBLE_VERSION="2.11.3"
 
-LABEL maintainer="tgremlin82 <tenisonallan@gmail.com>"
+LABEL maintainer="carnells <ces1231@gmail.com>"
 LABEL terraform_version=${TERRAFORM_VERSION}
 LABEL ansible_version=${ANSIBLE_VERSION}
 LABEL aws_cli_version=${AWSCLI_VERSION}
